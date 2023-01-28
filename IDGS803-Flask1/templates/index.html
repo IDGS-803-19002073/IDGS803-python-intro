@@ -1,0 +1,8 @@
+{% extends "layout.html" %}
+{% block content %}
+  <h1>Hola mundo</h1>
+  <h2>El nombre es {{nombre}}</h2>
+  {%for item in lista1%}
+  <h2>{{item}}</h2>
+  {%endfor%}
+ {% endblock %}
