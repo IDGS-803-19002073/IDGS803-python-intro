@@ -1,6 +1,7 @@
 
 def sumar():
-    
+    num1=int(input("dame numero 1: "))
+    num2=int(input("dame numero 2: "))
     resultado = num1 + num2
     print("{} + {} = {}".format(num1, num2, resultado))
 
